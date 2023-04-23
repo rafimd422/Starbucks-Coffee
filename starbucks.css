@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&family=Raleway:ital,wght@1,200&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300&display=swap");
+
+:root {
+  --main-color: rgb(3, 121, 22);
+  --white: #ffffff;
+}
+
+body {
+  outline: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav li a {
+  font-size: 1.2rem;
+  color: black;
+}
+.navbar-nav li a:hover {
+  color: var(--main-color);
+}
+.navbar-toggler-icon {
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+.homerow {
+  background-color: rgb(233, 230, 225);
+  height: 88vh;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+.change-direction {
+display: flex;
+flex-direction: column;
+}
+.homepage h6 {
+  margin-top: 3.5rem;
+}
+}
+
+.homepage h6 {
+  line-height: 0.8rem;
+}
+.homepage h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: var(--main-color);
+}
+.homepage h4 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.1rem;
+
+}
+.card {
+  width: 250px;
+  border: none;
+  box-sizing: border-box;
+  padding: 0.2rem;
+}
+.card img {
+  width: 80px;
+  margin-bottom: -2.2rem;
+  z-index: 1;
+}
+.card-body {
+  height: 200px;
+  background-color: var(--main-color);
+}
+
+
+.shop h4 {
+  color: var(--main-color);
+  font-size: 2.2rem;
+}
+
+.shop h4:hover {
+font-size: 2.6rem;
+transition: 2s;
+}
+
+.row-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+/* .....................delivery_section........................ */
+.delivery {
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.delivery h2 {
+  color: var(--main-color);
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 600px) {
+
+.delivery-section {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+.delivery-section p {
+  text-align: justify; 
+font-size: 17px;
+}
+/* ...................app-section.................... */
+
+
+.app {
+  gap: 1.8rem;
+}
+
+.app h2 {
+  color: var(--main-color);
+}
+
+
+@media screen and (max-width: 900px) {
+  .app-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}  
+/* ............about......... */
+.about {
+  background-color: bisque;
+}
+.about-description p {
+text-align: justify;
+}
+
+
+/* ....................footer.............. */
+footer .icons img {
+  cursor: pointer;
+}
+footer .terms a {
+  font-size: 1.1rem;
+  color: rgb(46, 43, 43);
+  font-weight: 400;
+}
+footer .terms a:hover {
+color: rgb(3, 121, 22);
+}
